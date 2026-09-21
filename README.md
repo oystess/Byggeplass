@@ -1,6 +1,6 @@
-# 🏰 Jørgens byggeplass
+# 🏠 Jørgens byggeplass
 
-En liten stjernetavle-app for barn: tørr hele dagen = 1 stjerne. Når Jørgen har samlet 10 stjerner, har han bygget hele riddertårnet og vunnet premien (en leke-gravemaskin). En gravemaskin «graver» og bygger tårnet høyere for hver stjerne.
+En liten stjernetavle-app for barn: tørr hele dagen = 1 stjerne. For hver stjerne kommer en ny del til huset – grunnmur, vegger, dør, vinduer, takstoler, tak og pipe. Når Jørgen har samlet 10 stjerner, står hele plankehuset ferdig og han har vunnet premien (en leke-gravemaskin). En gravemaskin står på tomta og graver for hver stjerne.
 
 Appen er én frittstående HTML-fil uten avhengigheter. Den lagrer fremgangen lokalt i nettleseren, fungerer offline, og kan legges til på hjemskjermen som en vanlig app.
 
@@ -59,7 +59,8 @@ Bytt ut `index.html` (eller andre filer) og commit/push på nytt. Pages oppdater
 Alt ligger i `index.html`:
 - **Antall stjerner til premie:** endre `var GOAL = 10;` i `<script>`.
 - **Tekst (navn, premie, overskrifter):** søk i HTML-en, f.eks. «Jørgens byggeplass» eller «vunnet en gravemaskin».
-- **Farger:** justeres i `<style>` (bygul `#F5B921`, stein `#C3BBA9`, flagg `#E2483B`).
+- **Husdelene:** listen `var PARTS = [...]` i `<script>` – én husdel per stjerne, i rekkefølgen de bygges.
+- **Farger:** justeres i `<style>` (bygul `#F5B921`, husvegg gråblå `#AEBAC5`, tak `#5A6D80`, dør `#4E7F9F`, flagg `#E2483B`).
 - **Lyd:** av/på-knappen øverst til høyre; innstillingen huskes.
 
 ---
