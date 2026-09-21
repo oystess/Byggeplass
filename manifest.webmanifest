@@ -1,7 +1,7 @@
 {
   "name": "Jørgens byggeplass",
   "short_name": "Byggeplass",
-  "description": "Stjernetavle med riddertårn og gravemaskin",
+  "description": "Stjernetavle med plankehus og gravemaskin",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
